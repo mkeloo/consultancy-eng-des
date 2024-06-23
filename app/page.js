@@ -1,11 +1,21 @@
-import Image from 'next/image';
+import HeroSection from '@/components/HeroSection';
+import About from '@/components/About';
+import Services from '@/components/Services';
+import Projects from '@/components/Projects';
+import Testimonials from '@/components/Testimonials';
+import Team from '@/components/Team';
+import CallToAction from '@/components/CallToAction';
 
 export default function Home() {
   return (
-    <main>
-      <div>
-        <h1 className="text-2xl">Hello World!</h1>
-      </div>
-    </main>
+    <>
+      <HeroSection />
+      <About />
+      <Services />
+      <Projects />
+      <Testimonials />
+      <Team />
+      <CallToAction />
+    </>
   );
 }
