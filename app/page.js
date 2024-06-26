@@ -12,9 +12,9 @@ export default function Home() {
       <HeroSection />
       <About />
       <Services />
-      {/* <Projects />
+      <Projects />
       <Testimonials />
-      <Team /> */}
+      <Team />
       <CallToAction />
     </>
   );
