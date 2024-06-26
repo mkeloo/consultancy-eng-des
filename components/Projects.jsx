@@ -54,7 +54,7 @@ const Projects = () => {
             See All
           </Button>
         </div>
-        <p className="text-lg mb-12">
+        <p className="text-md font-bold mb-12">
           Recent Projects Showcasing Our Craftsmanship And Innovation In
           Construction
         </p>
@@ -70,7 +70,7 @@ const Projects = () => {
                   alt={project.title}
                   width={200}
                   height={200}
-                  className="object-cover w-[500px] h-[215px]  w-full"
+                  className="object-cover w-[500px] h-[215px] "
                 />
               </div>
               <div className="p-6">
