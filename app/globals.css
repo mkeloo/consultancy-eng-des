@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 0, 0%, 100%;
+    --background: #f2e6d4;
     --foreground: 20, 14.3%, 4.1%;
     --card: 0, 0%, 100%;
     --card-foreground: 20, 14.3%, 4.1%;
@@ -28,7 +28,7 @@
   }
 
   .dark {
-    --background: 237, 22%, 20%;
+    --background: #1a1006;
     --foreground: 210, 20%, 98%;
     --card: 240, 19%, 16%;
     --card-foreground: 210, 20%, 98%;
@@ -38,7 +38,7 @@
     --primary-foreground: 210, 20%, 98%;
     --secondary: 240, 19%, 16%;
     --secondary-foreground: 210, 20%, 98%;
-    --tertiary: 233, 19%, 23%;
+    --tertiary: #1a1006;
     --muted: 12, 6.5%, 15.1%;
     --muted-foreground: 237, 13%, 63%;
     --accent: 240, 19%, 16%;
@@ -107,4 +107,19 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.circle-background {
+  background-color: #abffa5;
+  opacity: 0.5;
+  background-image: radial-gradient(circle at center center, #004814, #abffa5),
+    repeating-radial-gradient(
+      circle at center center,
+      #004814,
+      #004814,
+      22px,
+      transparent 44px,
+      transparent 22px
+    );
+  background-blend-mode: multiply;
 }

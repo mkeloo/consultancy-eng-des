@@ -1,63 +1,31 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
   return (
-    <div className="bg-[#f0fff0]  min-h-screen h-[90vh] flex items-center justify-center px-16">
+    <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] min-h-screen h-[90vh] flex items-center justify-center px-14 ">
       {/* Left Section */}
-      <div className="lg:w-1/2 h-[90vh] pl-8 xl:py-14 lg:py-8">
-        <div className="relative w-full max-w-lg">
-          {/* Animated Gradient Blobs */}
-          <div className="absolute top-0 -left-4 w-72 h-72 bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob" />
-          <div className="absolute top-0 -right-4 w-72 h-72 bg-teal-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000" />
-          <div className="absolute -bottom-8 left-20 w-72 h-72 bg-teal-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000" />
-
-          {/* <div className="m-8 relative space-y-4">
-            <div className="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
-              <div className="flex-1">
-                <div className="h-4 w-48 bg-gray-300 rounded"></div>
-              </div>
-              <div>
-                <div className="w-24 h-6 rounded-lg bg-purple-300"></div>
-              </div>
-            </div>
-            <div className="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
-              <div className="flex-1">
-                <div className="h-4 w-56 bg-gray-300 rounded"></div>
-              </div>
-              <div>
-                <div className="w-20 h-6 rounded-lg bg-yellow-300"></div>
-              </div>
-            </div>
-            <div className="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
-              <div className="flex-1">
-                <div className="h-4 w-44 bg-gray-300 rounded"></div>
-              </div>
-              <div>
-                <div className="w-28 h-6 rounded-lg bg-pink-300"></div>
-              </div>
-            </div>
-          </div> */}
-
+      <div className="lg:w-1/2 h-[90vh] -mt-20  xl:py-14 lg:py-8 flex justify-center items-center ">
+        <div className="relative w-full max-w-lg ">
           {/* Text Content */}
           <div>
-            <h1 className="text-6xl font-bold leading-tight mb-6">
-              Crafting <br />
-              Architectural <br />
-              Wonders
+            <h2 className="text-xl font-semibold mb-2">
+              Building the Future, One Project at a Time
+            </h2>
+            <h1 className="text-6xl font-bold leading-tight mb-6 ">
+              Expert Design & Engineering Services in <br /> Construction
             </h1>
             <p className="text-xl mb-6">
-              Your Ideas & Dreams Are Transformed By Us Into Long-Lasting,
-              Engineered Buildings.
+              Innovative engineering and design solutions for residential,
+              commercial, and industrial construction projects.
             </p>
-            <div className="flex space-x-4 mb-6">
-              <Button className="bg-teal-500 text-black px-6 py-3 rounded-full font-semibold shadow-md hover:bg-teal-600">
+            <div className=" space-x-4 mb-6 gap-4 ">
+              <Button className="bg-[#1A1006] text-white  dark:bg-[#F2E6D4] dark:text-[#1A1006] text-md  px-8 py-6 rounded-lg font-semibold shadow-md hover:bg-yellow-800 duration-300 mr-16 transition hover:scale-105">
                 Contact Us
               </Button>
-              <Button className="border-2 bg-teal-500 text-black px-6 py-3 rounded-full font-semibold shadow-md hover:bg-teal-600">
-                Free Consultation
+              <Button className="bg-primary dark:bg-yellow-500 text-md text-black px-8 py-6 rounded-lg font-semibold shadow-md hover:bg-yellow-800 duration-300">
+                Request a Quote
               </Button>
             </div>
           </div>
@@ -65,16 +33,15 @@ const HeroSection = () => {
       </div>
 
       {/* Right Section */}
-      <div className="w-1/2">
-        <Image
+      <div className="w-1/2 h-[90vh] -mt-20 pl-8 xl:py-14 lg:py-8 flex justify-center items-center">
+        <img
           src="/images/Hero/hero1.jpg"
-          width={800}
-          height={500}
           alt="hall-hero-pic"
-          className="p-16"
+          className="h-[50vh] object-cover w-full"
         />
       </div>
     </div>
   );
 };
+
 export default HeroSection;

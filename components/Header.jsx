@@ -23,16 +23,9 @@ const Header = () => {
   }, []);
 
   return (
-    <header
-      className={`${
-        header
-          ? 'py-4 bg-tertiary shadow-lg dark:bg-accent'
-          : 'py-6 dark:bg-transparent'
-      } sticky top-0 z-30 transition-all duration-300 ${
-        pathname === '/' && 'bg-[#fff]'
-      }`}
-    >
-      <div className="container mx-auto">
+    <header className=" bg-[#F2E6D4] dark:bg-[#1A1006] shadow-lg  sticky top-0 z-30 transition-colors duration-300 text-[#1A1006] dark:text-[#F2E6D4] py-4 ">
+      {/* bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] */}
+      <div className="container bg-[#F2E6D4] dark:bg-[#1A1006]  mx-auto ">
         <div className="flex items-center justify-between">
           <Logo />
           <div className="flex items-center gap-x-6">

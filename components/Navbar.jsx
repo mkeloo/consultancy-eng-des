@@ -10,8 +10,8 @@ const links = [
   { path: '/about', name: 'about' },
   { path: '/services', name: 'services' },
   { path: '/projects', name: 'projects' },
-  { path: '/feedbacks', name: 'feedbacks' },
-  { path: '/team', name: 'team' },
+  // { path: '/feedbacks', name: 'feedbacks' },
+  // { path: '/team', name: 'team' },
   { path: '/contact', name: 'contact' },
 ];
 
@@ -24,7 +24,7 @@ const Navbar = ({ containerStyles, linkStyles, underlineStyles }) => {
           <Link
             key={index}
             href={link.path}
-            className={`uppercase ${linkStyles}`}
+            className={`uppercase font-semibold ${linkStyles}`}
           >
             {link.path === path && (
               <motion.span
