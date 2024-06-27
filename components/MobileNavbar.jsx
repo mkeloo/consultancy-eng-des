@@ -11,7 +11,7 @@ const MobileNavbar = () => {
       </SheetTrigger>
 
       <SheetContent className="xl:hidden">
-        <div className="flex flex-col items-center justify-between h-full py-8">
+        <div className="dark:bg-[#F2E6D4] bg-[#1A1006] dark:text-[#1A1006] text-[#F2E6D4] flex flex-col items-center justify-between h-full py-8">
           <div className="flex flex-col items-center gap-y-32">
             <Logo />
             <Navbar
