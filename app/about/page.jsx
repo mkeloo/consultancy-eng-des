@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { TbArrowUpRight } from 'react-icons/tb';
 
-const About = () => {
+const AboutPage = () => {
   return (
     <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4]">
       <div className="bg-[url('/images/Team/whoweare.jpg')] bg-center bg-cover">
@@ -135,4 +135,4 @@ const About = () => {
     </div>
   );
 };
-export default About;
+export default AboutPage;
