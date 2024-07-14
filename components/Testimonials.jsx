@@ -40,7 +40,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] py-16 px-12">
-      <div className="container mx-auto">
+      <div className=" mx-auto">
         <div className="border-b-4 border-yellow-500 mb-4 w-14" />
 
         <div className="flex justify-between items-center mb-4">
@@ -67,7 +67,7 @@ const Testimonials = () => {
       >
         {testimonials.map((testimonial, idx) => (
           <SwiperSlide key={idx} className="flex ">
-            <div className="dark:bg-[#F2E6D4] bg-[#1A1006] dark:text-[#1A1006] text-[#F2E6D4] rounded-lg shadow-md p-6 min-h-[250px] flex flex-col justify-center ">
+            <div className="dark:bg-[#F2E6D4] bg-[#1A1006] dark:text-[#1A1006] text-[#F2E6D4] rounded-lg shadow-md p-6 h-full flex flex-col justify-center ">
               <p className="text-md italic mb-4 ">"{testimonial.quote}"</p>
               <div className="text-sm mt-auto">
                 <div className="font-bold">{testimonial.name}</div>

@@ -23,9 +23,9 @@ const Header = () => {
   }, []);
 
   return (
-    <header className=" bg-[#F2E6D4] dark:bg-[#1A1006] shadow-lg  sticky top-0 z-30 transition-colors duration-300 text-[#1A1006] dark:text-[#F2E6D4] py-4 ">
+    <header className="max-w-7xl mx-auto bg-[#F2E6D4] dark:bg-[#1A1006]  sticky top-0 z-30 transition-colors duration-300 text-[#1A1006] dark:text-[#F2E6D4] py-4 px-4">
       {/* bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] */}
-      <div className="container bg-[#F2E6D4] dark:bg-[#1A1006]  mx-auto ">
+      <div className=" bg-[#F2E6D4] dark:bg-[#1A1006]  mx-auto ">
         <div className="flex items-center justify-between">
           <Logo />
           <div className="flex items-center gap-x-6">

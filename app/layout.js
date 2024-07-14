@@ -15,9 +15,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} bg-[#1A1006] text-[#F2E6D4]`}>
+      <body className={`${inter.className} bg-[#1A1006] text-[#F2E6D4] `}>
         <ThemeProvider attribute="class" defaultTheme="dark">
-          <Header />
+          <div className="bg-[#1A1006] sticky top-0 z-[99]">
+            <Header />
+          </div>
           {children}
           <Footer />
         </ThemeProvider>

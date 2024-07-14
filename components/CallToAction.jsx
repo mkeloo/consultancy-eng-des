@@ -13,10 +13,10 @@ const CallToAction = () => {
           Contact Us If You Have Anything In Mind, We Will Help You Build.
         </p>
         <div className=" space-x-4 mb-6 gap-4 ">
-          <Button className="bg-[#F2E6D4] text-[#1A1006] text-md  px-8 py-6 rounded-lg font-semibold shadow-md  duration-300 mr-16 transition hover:scale-105">
+          <Button className="bg-[#F2E6D4] text-[#1A1006] text-md  px-8 py-6 rounded-2xl font-semibold shadow-md  duration-300 mr-16 transition hover:scale-105">
             Contact Us
           </Button>
-          <Button className="bg-yellow-500 text-md text-black px-8 py-6 rounded-lg font-semibold shadow-md  duration-300 transition  hover:scale-105">
+          <Button className="bg-yellow-500 text-md text-black px-8 py-6 rounded-2xl font-semibold shadow-md  duration-300 transition  hover:scale-105">
             Request a Quote
           </Button>
         </div>

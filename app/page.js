@@ -7,7 +7,7 @@ import CallToAction from '@/components/CallToAction';
 
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto bg-[#1A1006] text-[#F2E6D4]">
+    <div className="max-w-7xl mx-auto bg-[#1A1006] text-[#F2E6D4] ">
       <HeroSection />
       <About />
       <Services />

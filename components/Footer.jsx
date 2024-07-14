@@ -5,8 +5,8 @@ import { Input } from './ui/input';
 
 export default function Footer() {
   return (
-    <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4]">
-      <div className="container lg:grid lg:grid-cols-2 py-14">
+    <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] ">
+      <div className="max-w-7xl mx-auto lg:grid lg:grid-cols-2 py-14">
         <div className="grid gap-4 pb-4 text-left lg:pb-0 lg:grid-cols-3">
           <div>
             <h2 className="pb-4  text-lg font-semibold uppercase">Company</h2>
@@ -83,7 +83,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="py-6 bg-black dark:bg-primary">
-        <div className="container text-white text-center lg:justify-between lg:flex">
+        <div className="max-w-7xl mx-auto text-white text-center lg:justify-between lg:flex">
           <div className="pb-4 lg:pb-0">
             <p>
               &copy; {new Date().getFullYear()} Consultancy. All Rights Reserved{' '}

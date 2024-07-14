@@ -6,7 +6,7 @@ import { TbArrowUpRight } from 'react-icons/tb';
 
 const AboutPage = () => {
   return (
-    <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4]">
+    <div className=" bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4]">
       <div className="bg-[url('/images/Team/whoweare.jpg')] bg-center bg-cover">
         <h1 className="container py-32 text-6xl font-semibold text-black tracking-widest text-center lg:py-64">
           Who are we?
@@ -64,26 +64,29 @@ const AboutPage = () => {
         </div>
 
         {/* Team Section */}
-        <div className="lg:py-20">
+        <div className="lg:py-20 mx-20">
           <div className="pt-8 pb-4">
-            <h1 className="text-4xl font-bold tracking-wider text-center uppercase"></h1>
+            <h1 className="text-4xl font-bold tracking-wider text-center uppercase mb-10">
+              Meet Our Team
+            </h1>
           </div>
 
-          <div className="grid py-8 gap-20 lg:grid-cols-3">
+          <div className="flex py-4 gap-20 items-center justify-center">
             {/* Profile 1 */}
             <div className="border-2 border-primary">
               <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-[#32210F] -m-0.5 transition hover:-translate-y-3 hover:-translate-x-3 duration-300 ease-in-out">
-                <Image
-                  src="/images/Team/profile1.jpg"
-                  width={200}
-                  height={200}
+                <img
+                  src="/images/Team/MrMark.jpg"
+                  width={250}
+                  height={250}
                   alt="profile1"
-                  className="mx-auto rounded-full"
+                  className="mx-auto rounded-full mt-8 border-4 border-[#1A1006] hover:scale-105 transition-transform duration-300 ease-in-out"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
-                  Building Surveys
+                  Mark W. Keels
                 </h2>
-                <p className="text-sm">
+                <p className="text-lg my-2">P.E. Project Manager</p>
+                <p className="text-sm my-4">
                   Creativity is the ability to generate, create, or discover new
                   ideas, solutions, and possibilities.
                 </p>
@@ -93,37 +96,20 @@ const AboutPage = () => {
             {/* Profile 2  */}
             <div className="border-2 border-primary">
               <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-[#32210F] -m-0.5 transition hover:-translate-y-3 hover:-translate-x-3 duration-300 ease-in-out">
-                <Image
-                  src="/images/Team/profile2.jpg"
-                  width={200}
-                  height={200}
+                <img
+                  src="/images/Team/Mak.webp"
+                  width={250}
+                  height={250}
                   alt="profile2"
-                  className="mx-auto rounded-full"
+                  className="mx-auto rounded-full mt-8 border-4 border-[#1A1006] hover:scale-105 transition-transform duration-300 ease-in-out"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
-                  Building Surveys
+                  Mak Gazzara
                 </h2>
-                <p className="text-sm">
-                  Creativity is the ability to generate, create, or discover new
-                  ideas, solutions, and possibilities.
+                <p className="text-lg my-2">
+                  AutoCAD Drafter & Junior Project Manager
                 </p>
-              </div>
-            </div>
-
-            {/* Profile 3 */}
-            <div className="border-2 border-primary">
-              <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-[#32210F] -m-0.5 transition hover:-translate-y-3 hover:-translate-x-3 duration-300 ease-in-out">
-                <Image
-                  src="/images/Team/profile3.jpg"
-                  width={200}
-                  height={200}
-                  alt="profile3"
-                  className="mx-auto rounded-full"
-                />
-                <h2 className="py-4 text-2xl font-semibold uppercase">
-                  Building Surveys
-                </h2>
-                <p className="text-sm">
+                <p className="text-sm  my-4">
                   Creativity is the ability to generate, create, or discover new
                   ideas, solutions, and possibilities.
                 </p>
