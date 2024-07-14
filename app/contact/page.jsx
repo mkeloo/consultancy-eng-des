@@ -8,7 +8,10 @@ const ContactPage = () => {
           How to reach us?
         </h1>
       </div>
-      <Contact />
+
+      <div className="max-w-7xl mx-auto">
+        <Contact />
+      </div>
     </div>
   );
 };

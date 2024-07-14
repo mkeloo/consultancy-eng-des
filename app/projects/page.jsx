@@ -8,7 +8,10 @@ const ProjectsPage = () => {
           Our Work
         </h1>
       </div>
-      <Projects />
+
+      <div className="max-w-7xl mx-auto">
+        <Projects />
+      </div>
     </div>
   );
 };

@@ -82,7 +82,7 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="py-10 bg-black dark:bg-primary">
+      <div className="py-6 bg-black dark:bg-primary">
         <div className="container text-white text-center lg:justify-between lg:flex">
           <div className="pb-4 lg:pb-0">
             <p>

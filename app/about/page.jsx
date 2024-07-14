@@ -13,7 +13,7 @@ const AboutPage = () => {
         </h1>
       </div>
 
-      <div className="container">
+      <div className="max-w-7xl mx-auto">
         <div className="pt-4">
           <h2 className="text-3xl font-semibold text-center lg:p-10 lg:text-5xl">
             We have great idea & Interior Design

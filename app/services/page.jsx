@@ -8,7 +8,10 @@ const ServicesPage = () => {
           What do we offer?
         </h1>
       </div>
-      <Services />
+
+      <div className="max-w-7xl mx-auto">
+        <Services />
+      </div>
     </div>
   );
 };

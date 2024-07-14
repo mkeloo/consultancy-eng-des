@@ -58,11 +58,11 @@ const Projects = () => {
           Recent Projects Showcasing Our Craftsmanship And Innovation In
           Construction
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-white text-black rounded-lg shadow-md overflow-hidden flex justify-center items-center"
+              className="bg-white text-black rounded-2xl shadow-md overflow-hidden flex justify-center items-center"
             >
               <div>
                 <Image
@@ -70,7 +70,7 @@ const Projects = () => {
                   alt={project.title}
                   width={200}
                   height={200}
-                  className="object-cover w-[500px] h-[215px] "
+                  className="object-cover w-[400px] h-[215px] "
                 />
               </div>
               <div className="p-6">

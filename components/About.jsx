@@ -1,5 +1,4 @@
 'use client';
-import AnimatedBlobs from './AnimatedBlobs';
 import Badge from './Badge';
 
 const About = () => {
@@ -58,17 +57,17 @@ const About = () => {
             <div className="text-center">
               {/* <h2 className="text-4xl font-bold">600+</h2> */}
               <Badge endCountNum={10} endCountText="+" />
-              <p className="text-lg">Worked With 10+ Big Companies</p>
+              <p className="text-md">Worked With 10+ Big Companies</p>
             </div>
             <div className="text-center">
               {/* <h2 className="text-4xl font-bold">800+</h2> */}
               <Badge endCountNum={70} endCountText="+" />
-              <p className="text-lg">Projects Completed Successfully</p>
+              <p className="text-md">Projects Completed Successfully</p>
             </div>
             <div className="text-center">
               {/* <h2 className="text-4xl font-bold">99%</h2> */}
               <Badge endCountNum={99} endCountText="%" />
-              <p className="text-lg">We Stand With 99% Success Rate</p>
+              <p className="text-md">We Stand With 99% Success Rate</p>
             </div>
           </div>
         </div>
