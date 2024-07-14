@@ -44,7 +44,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="bg-[#1A1006] text-[#F2E6D4] py-16 px-12 border-b-2">
+    <div className="bg-[#1A1006] text-[#F2E6D4] py-16 px-8 border-b-2">
       <div className="max-w-7xl mx-auto">
         <div className="border-b-4 border-yellow-500 mb-4 w-14" />
 

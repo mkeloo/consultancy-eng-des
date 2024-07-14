@@ -29,17 +29,16 @@ const AboutPage = () => {
         <div className="items-center lg:flex gap-x-8">
           {/* Left Image Section */}
           <div className="w-full">
-            <Image
-              src="/images/Team/gallery1123.jpg"
-              width={700}
-              height={700}
+            <img
+              src="/images/Team/AboutSidePic.jpg"
+              className="object-cover w-full h-[60vh] rounded-3xl shadow-lg border-4 border-yellow-500 hover:scale-105 transition-transform duration-300 ease-in-out hover:shadow-2xl hover:shadow-yellow-500 hover:backdrop:blur-2xl"
               alt="gallery"
             />
           </div>
 
           {/* Right Content Section */}
-          <div>
-            <p className="pb-8 tracking-wide mt-6">
+          <div className="ml-4">
+            <p className="pb-8 tracking-wide mt-6 px-10">
               We are an international Architects. We believe that today it is
               fundamental to totally rethink architechtural education.
               Confluence not only integrates new visions on society but also
@@ -57,7 +56,7 @@ const AboutPage = () => {
                 power of people united in a common purpose.
               </span>
             </p>
-            <Button className="bg-[#1A1006] text-white  dark:bg-[#F2E6D4] dark:text-[#1A1006] text-md  px-8 py-6 rounded-lg font-semibold shadow-md hover:bg-yellow-800 duration-300 mr-16 transition hover:scale-105 hover:dark:bg-yellow-500">
+            <Button className="bg-[#1A1006] text-white  dark:bg-[#F2E6D4] dark:text-[#1A1006] text-md  px-8 py-6 rounded-lg font-semibold shadow-md hover:bg-yellow-800 duration-300 mr-16 transition hover:scale-105 hover:dark:bg-yellow-500 ml-10">
               Read More <TbArrowUpRight className="w-5 h-5 ml-2" />
             </Button>
           </div>
@@ -80,7 +79,7 @@ const AboutPage = () => {
                   width={250}
                   height={250}
                   alt="profile1"
-                  className="mx-auto rounded-full mt-8 border-4 border-[#1A1006] hover:scale-105 transition-transform duration-300 ease-in-out"
+                  className="mx-auto rounded-full mt-8 border-4 border-yellow-500 hover:scale-105 transition-transform duration-300 ease-in-out hover:shadow-2xl hover:shadow-yellow-500 hover:backdrop:blur-2xl"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
                   Mark W. Keels
@@ -101,7 +100,7 @@ const AboutPage = () => {
                   width={250}
                   height={250}
                   alt="profile2"
-                  className="mx-auto rounded-full mt-8 border-4 border-[#1A1006] hover:scale-105 transition-transform duration-300 ease-in-out"
+                  className="mx-auto rounded-full mt-8 border-4 border-yellow-500 hover:scale-105 transition-transform duration-300 ease-in-out hover:shadow-2xl hover:shadow-yellow-500 hover:backdrop:blur-2xl"
                 />
                 <h2 className="py-4 text-2xl font-semibold uppercase">
                   Mak Gazzara

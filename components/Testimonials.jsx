@@ -39,7 +39,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] py-16 px-12 mb-32 border-b-2">
+    <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] py-16 px-8 mb-32 border-b-2">
       <div className=" mx-auto">
         <div className="border-b-4 border-yellow-500 mb-4 w-14" />
 

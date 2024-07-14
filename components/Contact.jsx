@@ -55,7 +55,7 @@ export default function Contact() {
           <div className="mt-10">
             <Button
               type="submit"
-              className="flex w-full items-center bg-[#1A1006] text-white  dark:bg-[#F2E6D4] dark:text-[#1A1006] text-md  px-8 py-6 rounded-lg font-semibold shadow-md  duration-300 mr-16 transition hover:scale-105 hover:dark:bg-yellow-500 hover:bg-yellow-500 hover:text-black"
+              className="flex w-full items-center bg-[#1A1006] text-white  dark:bg-[#F2E6D4] dark:text-[#1A1006] text-md  px-8 py-6 rounded-2xl font-semibold shadow-md  duration-300 mr-16 transition hover:scale-105 hover:dark:bg-yellow-500 hover:bg-yellow-500 hover:text-black"
             >
               Let's Talk
               <TbArrowUpRight className="w-5 h-5 ml-2" />
