@@ -2,10 +2,11 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import blob from '@/public/images/CTA/blob.svg';
 
 const CallToAction = () => {
   return (
-    <div className=" h-[50vh] bg-[#1A1006] text-[#F2E6D4]  py-16  flex items-center justify-between px-14 ">
+    <div className=" h-[50vh] bg-[#1A1006] text-[#F2E6D4]  py-16  flex items-center justify-between px-14 mt-20 mb-20 ">
       <div className="w-[55%] px-8">
         <div className="border-b-4 border-yellow-500 mb-4 w-14" />
         <h2 className="text-4xl font-bold mb-4">Let's Work Together</h2>
@@ -21,14 +22,20 @@ const CallToAction = () => {
           </Button>
         </div>
       </div>
-      <div className="w-[45%] flex justify-center items-center">
-        <div className="relative w-64 h-64">
+      <div className="relative w-[45%] flex justify-center items-center group duration-300 transition-transform ease-in-out">
+        <img
+          src="/images/CTA/blob.svg"
+          alt="blob"
+          className="absolute h-100 w-100 z-[1]  group-hover:scale-95 group-hover:-translate-y-20 group-hover:translate-x-6 group-hover:rotate-180 duration-300 transition-transform ease-in-out"
+        />
+
+        <div className="relative w-80 h-80 ml-10 mb-10 z-[2]">
           <Image
             src="/images/CTA/CTA.jpeg"
             alt="worker"
             layout="fill"
             objectFit="cover"
-            className="rounded-lg"
+            className="border-4 border-yellow-500 rounded-3xl group-hover:scale-110  duration-300 transition-transform ease-in-out group-hover:shadow-2xl group-hover:shadow-yellow-500 group-hover:backdrop-blur-2xl"
           />
         </div>
       </div>

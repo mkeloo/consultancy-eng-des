@@ -1,11 +1,14 @@
 import Link from 'next/link';
-import logo from '../public/images/Logo/logo.png';
-import Image from 'next/image';
 
 const Logo = () => {
   return (
-    <Link href="/">
-      <Image src={logo} width={120} height={30} alt="Company Logo" />
+    <Link href="/" className="flex flex-col justify-center items-center ">
+      <div className="font-bold text-3xl bg-gradient-to-r from-yellow-400 to-amber-800 text-transparent bg-clip-text hover:cursor-pointer -mb-2">
+        Urban
+      </div>
+      <div className="font-bold text-3xl bg-gradient-to-r from-yellow-400 to-amber-800 text-transparent bg-clip-text hover:cursor-pointer leading-tight">
+        Vision
+      </div>
     </Link>
   );
 };

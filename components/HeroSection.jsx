@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
   return (
-    <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] min-h-screen h-[90vh] flex items-center justify-center px-12 ">
+    <div className="bg-[#1A1006] text-[#F2E6D4] w-full mx-auto min-h-screen h-[90vh] flex items-center justify-center px-8 ">
       {/* Left Section */}
       <div className="lg:w-1/2 h-[90vh] -mt-20  xl:py-14 lg:py-8 flex justify-center items-center ">
         <div className="relative w-full ">
@@ -33,12 +33,15 @@ const HeroSection = () => {
       </div>
 
       {/* Right Section */}
-      <div className="w-1/2 h-[90vh] -mt-20 pl-8 xl:py-14 lg:py-8 flex justify-center items-center">
-        <img
-          src="/images/Hero/hero1.jpg"
-          alt="hall-hero-pic"
-          className="h-[50vh] object-cover w-full"
-        />
+      <div className="relative w-1/2 h-[90vh] -mt-20   xl:py-14 lg:py-8 flex justify-center items-center">
+        <div className="relative ml-10 w-full  flex justify-center items-center group duration-300 transition-transform ease-in-out ">
+          <div className="absolute h-[55vh] aspect-square w-[80%] rounded-3xl border-4 border-yellow-500 -translate-x-10 -translate-y-8 bg-yellow-500 z-[1] group-hover:rotate-45 group-hover:scale-75 group-hover:-translate-y-20 group-hover:-translate-x-24 duration-300 transition-transform ease-in-out" />
+          <img
+            src="/images/Hero/hero1.jpg"
+            alt="hall-hero-pic"
+            className=" h-[55vh] aspect-square object-cover w-[80%] rounded-3xl border-4 border-yellow-500 z-[2] group-hover:scale-105  duration-300 transition-transform ease-in-out group-hover:shadow-2xl group-hover:shadow-yellow-500 group-hover:backdrop-blur-2xl"
+          />
+        </div>
       </div>
     </div>
   );

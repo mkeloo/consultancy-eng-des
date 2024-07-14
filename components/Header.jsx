@@ -23,9 +23,8 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="max-w-7xl mx-auto bg-[#F2E6D4] dark:bg-[#1A1006]  sticky top-0 z-30 transition-colors duration-300 text-[#1A1006] dark:text-[#F2E6D4] py-4 px-4">
-      {/* bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] */}
-      <div className=" bg-[#F2E6D4] dark:bg-[#1A1006]  mx-auto ">
+    <header className="w-full bg-[#1A1006] sticky top-0 z-30 transition-colors duration-300 text-[#F2E6D4] py-4 px-4">
+      <div className="max-w-7xl mx-auto bg-[#F2E6D4] dark:bg-[#1A1006]">
         <div className="flex items-center justify-between">
           <Logo />
           <div className="flex items-center gap-x-6">
@@ -45,4 +44,5 @@ const Header = () => {
     </header>
   );
 };
+
 export default Header;

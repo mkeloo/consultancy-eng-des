@@ -1,9 +1,9 @@
 'use client';
 import Badge from './Badge';
 
-const About = () => {
+const StatsAbout = () => {
   return (
-    <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] relative min-h-screen flex items-center justify-center  ">
+    <div className="bg-[#1A1006] text-[#F2E6D4] relative min-h-screen flex items-center justify-center border-t-2 ">
       {/* Left Section */}
       <div className="w-1/2 relative flex items-center justify-center m-4 ">
         {/* <div className="absolute  w-72 h-72 bg-teal-200 dark:bg-emerald-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000 -z-4" /> */}
@@ -76,4 +76,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default StatsAbout;

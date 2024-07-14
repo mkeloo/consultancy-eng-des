@@ -5,7 +5,7 @@ import { Input } from './ui/input';
 
 export default function Footer() {
   return (
-    <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] ">
+    <div className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4] border-t-2 ">
       <div className="max-w-7xl mx-auto lg:grid lg:grid-cols-2 py-14">
         <div className="grid gap-4 pb-4 text-left lg:pb-0 lg:grid-cols-3">
           <div>

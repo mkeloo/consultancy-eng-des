@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: #1a1006; /* Updated background color */
+    --background: #1a1006;
     --foreground: 210, 20%, 98%;
     --primary: 19, 77%, 57%;
     --primary-foreground: 210, 20%, 98%;
@@ -30,8 +30,14 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-color: var(--background); /* Apply the background color */
+    background-color: var(--background);
+    margin: 0;
   }
+}
+
+.header-container {
+  width: 100%;
+  background-color: var(--background);
 }
 
 .circle-background {
