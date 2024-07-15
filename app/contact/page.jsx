@@ -42,7 +42,7 @@ const ContactPage = () => {
           className="w-1/2 h-full flex items-center"
         >
           <div className="w-full h-full">
-            <div className="bg-[#100a04] text-[#F2E6D4] h-full px-6 py-32 lg:px-8 border-2 rounded-3xl flex flex-col justify-center">
+            <div className="bg-[#100a04] text-[#F2E6D4] h-full px-6 py-32 lg:px-8 border-4 rounded-3xl flex flex-col justify-center">
               <div className="mx-auto max-w-2xl text-center">
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
                   Contact Sales
