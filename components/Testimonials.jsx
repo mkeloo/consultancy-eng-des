@@ -4,11 +4,12 @@ import { Button } from '@/components/ui/button';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
+import { FaQuoteLeft } from 'react-icons/fa';
 
 const testimonials = [
   {
     quote:
-      'It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.',
+      'It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light.',
     name: 'Charles Dickens',
     title: 'A Tale of Two Cities',
   },
@@ -66,12 +67,15 @@ const Testimonials = () => {
         className="bg-[#F2E6D4] dark:bg-[#1A1006] text-[#1A1006] dark:text-[#F2E6D4]"
       >
         {testimonials.map((testimonial, idx) => (
-          <SwiperSlide key={idx} className="flex ">
-            <div className="dark:bg-[#F2E6D4] bg-[#1A1006] dark:text-[#1A1006] text-[#F2E6D4] rounded-lg shadow-md p-6 min-h-[250px] flex flex-col justify-center ">
-              <p className="text-md italic mb-4 ">"{testimonial.quote}"</p>
+          <SwiperSlide key={idx} className="flex">
+            <div className="dark:bg-[#F2E6D4] bg-[#1A1006] dark:text-[#1A1006] text-[#F2E6D4] rounded-2xl shadow-md p-6 w-[300px] h-[350px] flex flex-col justify-center relative ">
+              <FaQuoteLeft className="absolute top-4 left-4 text-[#1A1006] text-3xl" />
+              <p className="text-md italic mb-4 mt-12">{testimonial.quote}</p>
               <div className="text-sm mt-auto">
+                {/* divider  */}
+                <div className="border-b-2 border-[#1A1006] w-full mb-4" />
                 <div className="font-bold">{testimonial.name}</div>
-                <div className="">{testimonial.title}</div>
+                <div>{testimonial.title}</div>
               </div>
             </div>
           </SwiperSlide>

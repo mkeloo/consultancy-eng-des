@@ -43,13 +43,13 @@ const AboutPage = () => {
               Confluence not only integrates new visions on society but also
               incorporates new methods and contemporary tools linked to
               creativity, production, and portofolio, the unfolding box allows
-              portfolio sheets <br /> <br />
+              portfolio sheets. <br /> <br />
               We are an international Architects. We believe that today it is
               fundamental to totally rethink architechtural education.
               Confluence not only integrates new visions on society but also
               incorporates new methods and contemporary tools linked to
               creativity, production, and portofolio, the unfolding box allows
-              portfolio sheets <br /> <br />
+              portfolio sheets. <br /> <br />
               <span className="text-xl font-extrabold tracking-light">
                 The backpiperARCH, we share a belief in the transformational
                 power of people united in a common purpose.
