@@ -4,7 +4,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
@@ -30,7 +29,7 @@ export function ServicesTabs() {
                 spaces, tailored to your needs.
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-4">
+            <CardContent className="space-y-6 ">
               <p className="text-lg">
                 Our design team offers innovative solutions that blend
                 aesthetics with functionality. We understand the importance of
@@ -76,14 +75,14 @@ export function ServicesTabs() {
                 all project types.
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-4">
-              <p>
+            <CardContent className="space-y-6">
+              <p className="text-lg">
                 Our construction services are built on a foundation of quality
                 and reliability. We pride ourselves on delivering projects that
                 stand the test of time, using the best materials and
                 construction practices.
               </p>
-              <p>
+              <p className="text-lg">
                 We handle all types of construction projects, from residential
                 homes to large-scale commercial buildings. Our team is dedicated
                 to ensuring that each project is completed on time and within
@@ -104,14 +103,14 @@ export function ServicesTabs() {
                 project.
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-4">
-              <p>
+            <CardContent className="space-y-6">
+              <p className="text-lg">
                 Our consultation services provide you with the expert guidance
                 you need to navigate the complexities of construction projects.
                 We offer strategic advice and practical solutions to help you
                 achieve your goals.
               </p>
-              <p>
+              <p className="text-lg">
                 From planning and design to execution and completion, our
                 consultants are with you every step of the way. We ensure that
                 your project is not only successful but also smooth and
@@ -150,14 +149,14 @@ export function ServicesTabs() {
                 custom approaches to challenging projects.
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-4">
-              <p>
+            <CardContent className="space-y-6">
+              <p className="text-lg">
                 Our miscellaneous services cover a wide range of custom
                 construction solutions. Whether you have a unique project or
                 special requirements, we have the expertise to deliver results
                 that exceed your expectations.
               </p>
-              <p>
+              <p className="text-lg">
                 We take on challenging projects that require innovative thinking
                 and bespoke solutions. Our team is committed to providing the
                 highest level of service and quality, no matter how complex the
