@@ -39,16 +39,16 @@ const StatsAbout = () => {
       </div>
 
       {/* Right Section */}
-      <div className="relative w-1/2 flex items-center justify-center p-8 m-4">
+      <div className="relative w-1/2 flex items-center justify-center py-8 m-4 leading-relaxed">
         {/* Animated Gradient Blobs */}
         {/* <AnimatedBlobs /> */}
 
-        <div className="text-left">
+        <div className="text-left ">
           <div className="border-b-4 border-gray-800 dark:border-orange-300 mb-4 w-14" />
-          <h1 className="text-5xl font-bold mb-4">
+          <h1 className="text-5xl font-bold mb-8 ">
             Take A Glimpse Into Our Construction Voyage
           </h1>
-          <p className="text-lg mb-8">
+          <p className="text-lg mb-10">
             A Trailblazer In The Construction Industry. Our Journey Is One Of
             Passion, Dedication, And A Relentless Pursuit Of Excellence.
           </p>

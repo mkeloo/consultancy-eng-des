@@ -54,7 +54,7 @@ const Projects = () => {
             See All
           </Button>
         </div>
-        <p className="text-md font-bold mb-12">
+        <p className="text-md font-normal mb-12">
           Recent Projects Showcasing Our Craftsmanship And Innovation In
           Construction
         </p>

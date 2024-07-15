@@ -10,7 +10,7 @@ const CallToAction = () => {
       <div className="w-[55%] ">
         <div className="border-b-4 border-yellow-500 mb-4 w-14" />
         <h2 className="text-4xl font-bold mb-4">Let's Work Together</h2>
-        <p className="text-lg mb-8">
+        <p className="text-lg font-normal mb-8">
           Contact Us If You Have Anything In Mind, We Will Help You Build.
         </p>
         <div className=" space-x-4 mb-6 gap-4 ">
@@ -34,8 +34,7 @@ const CallToAction = () => {
             src="/images/CTA/CTA.jpeg"
             alt="worker"
             layout="fill"
-            objectFit="cover"
-            className="border-4 border-yellow-500 rounded-3xl group-hover:scale-110  duration-300 transition-transform ease-in-out group-hover:shadow-2xl group-hover:shadow-yellow-500 group-hover:backdrop-blur-2xl"
+            className="object-cover border-4 border-yellow-500 rounded-3xl group-hover:scale-110  duration-300 transition-transform ease-in-out group-hover:shadow-2xl group-hover:shadow-yellow-500 group-hover:backdrop-blur-2xl"
           />
         </div>
       </div>

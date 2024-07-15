@@ -49,7 +49,7 @@ const Testimonials = () => {
             See All
           </Button>
         </div>
-        <p className="text-md font-bold mb-12">
+        <p className="text-md font-normal mb-12">
           Just Don't Take Our Word For It. Here's What Our Clients Have To Say
         </p>
       </div>
